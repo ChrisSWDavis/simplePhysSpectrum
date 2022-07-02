@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="simplePhysSpectrum-XIsACross",
+    name="simplePhysSpectrum",
     version="0.0.1",
     author="Chris Davis",
     author_email="ChrisSWDavis@gmail.com",
@@ -20,7 +20,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ChrisSWDavis/physSpectrumSimple/",
+    url="https://github.com/ChrisSWDavis/simplePhysSpectrum/",
     packages=setuptools.find_packages(),
     install_requires=install_requires,
     classifiers=[
